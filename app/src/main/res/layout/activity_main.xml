@@ -136,11 +136,10 @@
         android:text="@string/equel"
         android:textSize="20sp"
         android:background="@drawable/round_button"
-        app:layout_constraintBottom_toBottomOf="@id/three"
-        app:layout_constraintLeft_toRightOf="@id/three"
+        app:layout_constraintBottom_toBottomOf="@id/three" app:layout_constraintLeft_toRightOf="@id/three"
         app:layout_constraintTop_toTopOf="@id/three"
         app:layout_constraintVertical_bias="0.0"
-        android:onClick="onClick2"/>
+        android:onClick="onClick3"/>
     <Button
         android:id="@+id/devite"
         android:layout_width="wrap_content"
@@ -191,7 +190,7 @@
         app:layout_constraintRight_toLeftOf="@id/zero"
         app:layout_constraintBottom_toBottomOf="@id/zero"
         app:layout_constraintTop_toTopOf="@id/zero"/>
-    <TextView
+    <EditText
         android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="80dp"
